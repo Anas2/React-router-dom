@@ -1,0 +1,40 @@
+.mainBox {
+    /* border: 1px solid; */
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+}
+.mainBox h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+}
+.insideMainBox {
+    border: 2px solid rgb(219, 219, 219);
+    margin: 0px 300px 0px 300px;
+    box-shadow: 1px 1px 10px 1px rgb(221, 221, 221);
+}
+
+.insideMainBox input {
+    width: 100%;
+    font-size: 19px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: rgb(253, 253, 253);
+    text-transform: capitalize;
+    
+}
+
+.insideMainBox div {
+    padding: 15px;
+}
+
+.insideMainBox input:focus {
+    outline: none;
+    border-bottom-style:dotted;
+    color: rgb(21, 101, 192);
+    
+}
