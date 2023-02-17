@@ -1,0 +1,14 @@
+.main{
+    width: 100%;
+   padding: 20px;
+}
+.main div{
+padding: 20px;
+font-size: 20px;
+text-transform: capitalize;
+
+}
+.main div h3{
+color: green;
+text-transform: uppercase;
+}
